@@ -22,9 +22,15 @@ This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The 
 * Partly Sleep & Wakeup
 
 ## BIOS Settings
-- General → Advanced Boot Options: ***uncheck***
-- System Configuration → SATA Operation: ***AHCI***
-- Secure Boot → Secure Boot Enable: ***Disabled***
-- Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
-- Power Management → Block Sleep: ***check***
-- Virtualization Support → VT for Direct I/O: ***uncheck***
+* General → Advanced Boot Options: ***uncheck***
+* System Configuration → SATA Operation: ***AHCI***
+* Secure Boot → Secure Boot Enable: ***Disabled***
+* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
+* Power Management → Block Sleep: ***check***
+* Virtualization Support → VT for Direct I/O: ***uncheck***
+
+## BIOS Settings via GRUB (Optional)
+* Set Pre-Allocated DVMT to 64M: 
+***setup_var 0x8DC 0x02***
+* Disable CFG lock: 
+***setup_var 0x5BE 0x00***
