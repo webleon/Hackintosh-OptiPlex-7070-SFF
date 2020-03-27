@@ -1,39 +1,34 @@
 
-Clover EFI installer log - Tue Feb 25 18:32:31 CST 2020
-Installer version: v2.5k r5104 EFI bootloader
+Clover EFI installer log - Thu Mar 26 19:28:52 CST 2020
+Installer version: r5107 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *500.1 GB   disk0
    1:                        EFI EFI                     209.7 MB   disk0s1
-   2:       Microsoft Basic Data BarraCuda               499.9 GB   disk0s2
+   2:                 Apple_APFS Container disk2         499.9 GB   disk0s2
 
 /dev/disk1 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *500.1 GB   disk1
    1:                        EFI EFI                     209.7 MB   disk1s1
-   2:                 Apple_APFS Container disk2         499.9 GB   disk1s2
+   2:       Microsoft Basic Data BarraCuda               499.9 GB   disk1s2
 
 /dev/disk2 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +499.9 GB   disk2
-                                 Physical Store disk1s2
-   1:                APFS Volume Macintosh HD - 数据     177.2 GB   disk2s1
-   2:                APFS Volume Preboot                 82.4 MB    disk2s2
-   3:                APFS Volume Recovery                526.6 MB   disk2s3
-   4:                APFS Volume VM                      1.1 MB     disk2s4
-   5:                APFS Volume Macintosh HD            11.0 GB    disk2s5
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD - 数据     91.8 GB    disk2s1
+   2:                APFS Volume Preboot                 81.6 MB    disk2s2
+   3:                APFS Volume Recovery                528.1 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+   5:                APFS Volume Macintosh HD            11.1 GB    disk2s5
 
-/dev/disk3 (external, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *240.1 GB   disk3
-   1:       Microsoft Basic Data JetDrive                240.1 GB   disk3s1
-
-Target volume /Volumes/Macintosh HD on disk2 is APFS on physical store disk1s2
+Target volume /Volumes/Macintosh HD on disk2 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r5103/2020-02-25-18h32/EFI
+Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r5104/2020-03-26-19h28/EFI
 ======================================================
 Installing BootSectors/BootLoader
 

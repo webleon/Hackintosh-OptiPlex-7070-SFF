@@ -13,7 +13,7 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>AddMCHC</key>
 				<false/>
 				<key>AddPNLF</key>
@@ -104,21 +104,21 @@
 		<key>SSDT</key>
 		<dict>
 			<key>EnableC2</key>
-			<true/>
+			<false/>
 			<key>EnableC4</key>
-			<true/>
+			<false/>
 			<key>EnableC6</key>
-			<true/>
+			<false/>
 			<key>EnableC7</key>
 			<false/>
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<true/>
-				<key>PStates</key>
-				<true/>
-				<key>PluginType</key>
 				<false/>
+				<key>PStates</key>
+				<false/>
+				<key>PluginType</key>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
@@ -154,14 +154,10 @@
 				<data>
 				BwCbPg==
 				</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>
 				mz4AAA==
 				</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
 				<key>framebuffer-con2-alldata</key>
 				<data>
 				/wYIAAAEAADHAwAA
@@ -182,8 +178,6 @@
 				<data>
 				AAAAgA==
 				</data>
-				<key>model</key>
-				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 	</dict>
@@ -226,7 +220,7 @@
 		<key>AppleRTC</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
-		<true/>
+		<false/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
@@ -287,26 +281,6 @@
 				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable power state change timeout kernel panic (10.15+)</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				Y29tLmFwcGxlAF9fa2VybmVsX18A
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.15.x</string>
-				<key>Name</key>
-				<string>PowerTimeoutKernelPanic</string>
-				<key>Replace</key>
-				<data>
-				bm90LmFwcGxlAF9fa2VybmVsX18A
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -315,6 +289,8 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C07WM5ZSJYVX94ADA</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -370,7 +346,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>79B2E24C-E3D3-4A58-9285-6AC3484AF5B9</string>
+		<string>2458CD2E-05C4-4EA4-8D8B-5A0174BD9E96</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
