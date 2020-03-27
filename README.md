@@ -1,7 +1,7 @@
 # Hackintosh-OptiPlex-7070SFF
 **Only tested on Clover EFI bootloader.**
 
-2020-03-27
+**2020-03-27**
 * Update MacOS to Catalina 10.15.4
 
 ## Introdution
