@@ -1,6 +1,10 @@
 # Hackintosh-OptiPlex-7070SFF
 **Only tested on Clover EFI bootloader.**
 
+2020-03-27
+* Update MacOS to Catalina 10.15.4
+
+## Introdution
 This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The configuration settings support MacOS Catalina 10.15.3 with resolution up to 3840 x 2160. Because deep sleep will cause a kernel panic and the screens will display all green or black, so I blocked sleep in BIOS. You will have to **generate a new serial and SmUUID** before login to your iCloud account.
 
 ## Hardware Specs
