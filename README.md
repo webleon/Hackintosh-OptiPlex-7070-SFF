@@ -8,7 +8,7 @@
 This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The configuration settings support MacOS Catalina 10.15.3 with resolution up to 3840 x 2160. Because deep sleep will cause a kernel panic and the screens will display all green or black, so I blocked sleep in BIOS. You will have to **generate a new serial and SmUUID** before login to your iCloud account.
 
 ## Hardware Specs
-* **Desktop Computer**: [Dell OptiPlex 7070 SFF](https://www.dell.com/tc/business/p/optiplex-7070-desktop/pd) 
+* **Desktop Computer**: [Dell OptiPlex 7070 Small Form Factor](https://www.dell.com/tc/business/p/optiplex-7070-desktop/pd) 
 * **CPU**: [Intel® Core™ i7-9700](https://ark.intel.com/content/www/us/en/ark/products/191792/intel-core-i7-9700-processor-12m-cache-up-to-4-70-ghz.html)
 * **iGPU**: Intel® UHD Graphics 630
 * **RAM**: 64GB DDR4 2666 Daul Channel
