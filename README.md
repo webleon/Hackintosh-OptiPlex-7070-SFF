@@ -1,4 +1,4 @@
-# Hackintosh-OptiPlex-7070SFF
+# Hackintosh-OptiPlex-7070-SFF
 **Only tested on Clover EFI bootloader.**
 
 **2020-03-27**
