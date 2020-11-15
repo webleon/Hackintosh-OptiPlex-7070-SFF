@@ -24,17 +24,17 @@ You will have to **generate a new serial / MLB / SmUUID** before login to your i
 * **HDD**: TOSHIBA RC500 NVMe SSD 500G
 * **Wi-Fi & Bluetooth**: BCM943602CS with NGFF Adapter
 
-## What Works
+## Working
 * CPU Turbo Boost & Thermal Throttling
-* Integrated Graphics with acceleration
-* Daul monitor output at 3840 x 2160
+* Radeon™ RX 560 & iGPU acceleration
+* ALC 255 audio
 * All USB Ports
 * LAN & Wireless Network
 * Airdrop & Airplay
 * Partly Sleep & Wakeup
 
-## Not works
-* ALC 255 audio
+## Not working
+* 
 
 ## BIOS Settings
 * General → Advanced Boot Options: ***uncheck***
