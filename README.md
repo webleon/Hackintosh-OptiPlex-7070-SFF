@@ -4,7 +4,7 @@
 **2020-11-15**
 * Changed bootloader to Opencore 0.6.3
 * Update MacOS to Big Sur 11.0.1
-* Because I added a dedicate GPU RX560, changed SMBIOS to iMac 19,1
+* Added a dedicate GPU RX560, changed SMBIOS to iMac 19,1
 * ALC255 Audio didn't work with default OC configuration caused by IRQ conflicts. These has been patched with [SSDTTime](https://github.com/corpnewt/SSDTTime) 
 
 **2020-03-27**
@@ -12,8 +12,10 @@
 
 ## Introdution
 This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The configuration settings support MacOS Catalina and Big Sur. 
-Because deep sleep will cause a kernel panic and the screens will display all green or black, so I blocked sleep in BIOS. 
-If you using the UHD 630 iGPU, Set SMBIOS to Macmini 8,1; with a dedicate GPU better set SMBIOS to iMac 19,1. 
+Because deep sleep will cause a kernel panic, I blocked sleep in BIOS. 
+
+I'm using a iMac 19,1 SMBIOS to improve performance with dedicate GPU. If you only using the intergrated iGPU, set SMBIOS to Macmini 8,1 this can avoid most of the issues with video. 
+
 You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMBIOS) before login to your iCloud account.
 
 ## Hardware Specs
