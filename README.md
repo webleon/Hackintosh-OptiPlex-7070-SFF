@@ -2,9 +2,9 @@
 **Opencore Bootloader tested on Catalina 10.15.7 and Big Sur 11.0.1**
 
 **2020-11-15**
-* Added a basic EFI folder with Opencore Bootloader. 
-* Tested on Big Sur 11.0.1, everything works fine except onboard ALC255 audio.
-* Because I added a dedicate GPU RX560, changed SMBIOS to iMac 19,1.
+* Changed bootloader to Opencore 0.6.3
+* Update MacOS to Big Sur 11.0.1
+* Because I added a dedicate GPU RX560, changed SMBIOS to iMac 19,1
 
 **2020-03-27**
 * Update MacOS to Catalina 10.15.4
