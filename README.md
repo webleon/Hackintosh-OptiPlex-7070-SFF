@@ -6,6 +6,8 @@
 * Update MacOS to Big Sur 11.0.1
 * Because I added a dedicate GPU RX560, changed SMBIOS to iMac 19,1
 
+The ALC255 Audio doesn't work with default OC configuration caused by IRQ conflicts. These has been patched with [SSDTTime](https://github.com/corpnewt/SSDTTime) 
+
 **2020-03-27**
 * Update MacOS to Catalina 10.15.4
 
