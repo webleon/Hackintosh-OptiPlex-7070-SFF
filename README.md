@@ -1,5 +1,5 @@
 # Hackintosh-OptiPlex-7070-SFF
-**Only tested on Clover EFI bootloader.**
+**Opencore Bootloader tested on Catalina 10.15.7 and Big Sur 11.0.1**
 
 **2020-11-15**
 * Added a basic EFI folder with Opencore Bootloader. 
