@@ -2,18 +2,24 @@
 **Only tested on Clover EFI bootloader.**
 
 **2020-11-15**
-* Upload a basic EFI folder with Opencore Bootloader. Tested on Big Sur 11.0.1, everything works fine except onboard ALC255 audio.
+* Added a basic EFI folder with Opencore Bootloader. 
+* Tested on Big Sur 11.0.1, everything works fine except onboard ALC255 audio.
+* Because I added a dedicate GPU RX560, changed SMBIOS to iMac 19,1.
 
 **2020-03-27**
 * Update MacOS to Catalina 10.15.4
 
 ## Introdution
-This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The configuration settings support MacOS Catalina 10.15.3 with resolution up to 3840 x 2160. Because deep sleep will cause a kernel panic and the screens will display all green or black, so I blocked sleep in BIOS. You will have to **generate a new serial and SmUUID** before login to your iCloud account.
+This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The configuration settings support MacOS Catalina and Big Sur. 
+Because deep sleep will cause a kernel panic and the screens will display all green or black, so I blocked sleep in BIOS. 
+If you using the UHD 630 iGPU, Set SMBIOS to Macmini 8,1; with a dedicate GPU better set SMBIOS to iMac 19,1. 
+You will have to **generate a new serial/MLB/SmUUID** before login to your iCloud account.
 
 ## Hardware Specs
 * **Desktop Computer**: [Dell OptiPlex 7070 Small Form Factor](https://www.dell.com/tc/business/p/optiplex-7070-desktop/pd) 
 * **CPU**: [Intel® Core™ i7-9700](https://ark.intel.com/content/www/us/en/ark/products/191792/intel-core-i7-9700-processor-12m-cache-up-to-4-70-ghz.html)
 * **iGPU**: Intel® UHD Graphics 630
+* **GPU**: Radeon™ RX 560 (low profile)
 * **RAM**: 64GB DDR4 2666 Daul Channel
 * **HDD**: TOSHIBA RC500 NVMe SSD 500G
 * **Wi-Fi & Bluetooth**: BCM943602CS with NGFF Adapter
@@ -22,11 +28,13 @@ This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The 
 * CPU Turbo Boost & Thermal Throttling
 * Integrated Graphics with acceleration
 * Daul monitor output at 3840 x 2160
-* Integrated Audio Output (front/rear)
 * All USB Ports
 * LAN & Wireless Network
 * Airdrop & Airplay
 * Partly Sleep & Wakeup
+
+## Not works
+* ALC 255 audio
 
 ## BIOS Settings
 * General → Advanced Boot Options: ***uncheck***
