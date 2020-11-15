@@ -13,7 +13,7 @@
 This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The configuration settings support MacOS Catalina and Big Sur. 
 Because deep sleep will cause a kernel panic and the screens will display all green or black, so I blocked sleep in BIOS. 
 If you using the UHD 630 iGPU, Set SMBIOS to Macmini 8,1; with a dedicate GPU better set SMBIOS to iMac 19,1. 
-You will have to **generate a new serial/MLB/SmUUID** before login to your iCloud account.
+You will have to **generate a new serial / MLB / SmUUID** before login to your iCloud account.
 
 ## Hardware Specs
 * **Desktop Computer**: [Dell OptiPlex 7070 Small Form Factor](https://www.dell.com/tc/business/p/optiplex-7070-desktop/pd) 
