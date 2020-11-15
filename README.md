@@ -1,6 +1,9 @@
 # Hackintosh-OptiPlex-7070-SFF
 **Only tested on Clover EFI bootloader.**
 
+**2020-11-15**
+* Upload a basic EFI folder with Opencore Bootloader. Tested on Big Sur 11.0.1, everything works fine except onboard ALC255 audio.
+
 **2020-03-27**
 * Update MacOS to Catalina 10.15.4
 
