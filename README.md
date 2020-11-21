@@ -4,7 +4,7 @@
 **2020-11-15**
 * Changed bootloader to Opencore 0.6.3
 * Update MacOS to Big Sur 11.0.1
-* Added a dedicate GPU RX560, changed SMBIOS to iMac 19,1
+* Installed a dedicate GPU RX560, changed SMBIOS to iMac 19,1
 * ALC255 Audio didn't work with default OC configuration caused by IRQ conflicts. These has been patched with [SSDTTime](https://github.com/corpnewt/SSDTTime) 
 
 **2020-03-27**
