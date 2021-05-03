@@ -1,5 +1,5 @@
 # Hackintosh-OptiPlex-7070-SFF
-**Opencore Bootloader tested on Catalina 10.15.7 and Big Sur 11.2.3**
+**Opencore Bootloader tested on Catalina 10.15.7 and Big Sur 11.3**
 
 **2021-04-24**
 * Updated bootloader to Opencore 0.6.8
@@ -28,6 +28,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * **GPU**: Radeon™ RX 560 (low profile)
 * **RAM**: 64GB DDR4 2666 Daul Channel
 * **HDD**: TOSHIBA RC500 NVMe SSD 500G
+* **LAN**: Realtek RTL8125B / Intel I219LM7
 * **Wi-Fi & Bluetooth**: BCM943602CS with NGFF Adapter
 
 ## Working
