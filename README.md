@@ -1,5 +1,8 @@
 # Hackintosh-OptiPlex-7070-SFF
-**Opencore Bootloader tested on Catalina 10.15.7 and Big Sur 11.3**
+**Opencore Bootloader tested on Catalina 10.15.7 and Big Sur 11.3.1**
+
+**2021-05-08**
+* Fixed USB on Big Sur 11.3.1 by mapping USB Ports 
 
 **2021-04-24**
 * Updated bootloader to Opencore 0.6.8
