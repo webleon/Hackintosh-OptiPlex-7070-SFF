@@ -370,13 +370,6 @@
 				<key>layout-id</key>
 				<integer>11</integer>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				BwCbPg==
-				</data>
-			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -913,7 +906,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1115,7 +1108,7 @@
 				AEY=
 				</data>
 				<key>boot-args</key>
-				<string>keepsyms=1</string>
+				<string>keepsyms=1 igfxfw=2</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
