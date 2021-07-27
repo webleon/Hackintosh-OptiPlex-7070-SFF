@@ -2,7 +2,9 @@
 **Opencore Bootloader 0.7.1. Tested on Big Sur 11.5.1**
 
 **2021-07-27**
-* Fixed Sleep/Wakeup issue. Now it's no need to  
+* Updated bootloader to Opencore 0.7.1
+* Updated the KEXTs to the latest version
+* Fixed Sleep/Wakeup issue. Now it's no need to block sleep in the BIOS
 
 **2021-05-16**
 * Fixed UHD 630 Acceleration 
@@ -47,7 +49,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * All USB Ports
 * LAN & Wireless Network
 * Airdrop & Airplay
-* Partly Sleep & Wakeup
+* Sleep & Wakeup
 
 ## Not working
 * 
