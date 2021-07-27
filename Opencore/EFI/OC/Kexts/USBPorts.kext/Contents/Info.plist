@@ -165,7 +165,7 @@
 					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>10</integer>
+						<integer>9</integer>
 						<key>name</key>
 						<string>SS02</string>
 						<key>port</key>
@@ -176,7 +176,7 @@
 					<key>SS05</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS05</string>
 						<key>port</key>
@@ -187,7 +187,7 @@
 					<key>SS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS06</string>
 						<key>port</key>
@@ -198,7 +198,7 @@
 					<key>SS07</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS07</string>
 						<key>port</key>
@@ -209,7 +209,7 @@
 					<key>SS08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS08</string>
 						<key>port</key>
