@@ -34,8 +34,8 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 
 ## Hardware Specs
 * **Desktop Computer**: [Dell OptiPlex 7070 Small Form Factor](https://www.dell.com/tc/business/p/optiplex-7070-desktop/pd) 
-* **CPU**: [Intel® Core™ i7-9700](https://ark.intel.com/content/www/us/en/ark/products/191792/intel-core-i7-9700-processor-12m-cache-up-to-4-70-ghz.html)
-* **iGPU**: Intel® UHD Graphics 630
+* **CPU**: ~~[Intel® Core™ i7-9700](https://ark.intel.com/content/www/us/en/ark/products/191792/intel-core-i7-9700-processor-12m-cache-up-to-4-70-ghz.html)~~ [Intel® Core™ i7-9900](https://ark.intel.com/content/www/us/en/ark/products/191789/intel-core-i9-9900-processor-16m-cache-up-to-5-00-ghz.html)
+* * **iGPU**: Intel® UHD Graphics 630
 * **GPU**: Radeon™ RX 560 (low profile)
 * **RAM**: 64GB DDR4 2666 Daul Channel
 * **HDD**: TOSHIBA RC500 NVMe SSD 500G
