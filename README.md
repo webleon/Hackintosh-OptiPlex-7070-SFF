@@ -1,7 +1,7 @@
 # Hackintosh-OptiPlex-7070-SFF
 **Opencore Bootloader 0.7.1. Tested on Big Sur 11.5.1**
 
-<img src=https://github.com/webleon/Hackintosh-OptiPlex-7070-SFF/blob/master/images/about20210727.png width=60% />
+<img src=https://github.com/webleon/Hackintosh-OptiPlex-7070-SFF/blob/master/images/about20210727.png width=640px />
 
 **2021-07-27**
 * Updated bootloader to Opencore 0.7.1
