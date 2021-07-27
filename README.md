@@ -1,5 +1,8 @@
 # Hackintosh-OptiPlex-7070-SFF
-**Opencore Bootloader 0.6.8. Tested on Big Sur 11.3.1**
+**Opencore Bootloader 0.7.1. Tested on Big Sur 11.5.1**
+
+**2021-07-27**
+* Fixed Sleep/Wakeup issue. Now it's no need to  
 
 **2021-05-16**
 * Fixed UHD 630 Acceleration 
@@ -54,7 +57,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * System Configuration → SATA Operation: ***AHCI***
 * Secure Boot → Secure Boot Enable: ***Disabled***
 * Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
-* Power Management → Block Sleep: ***check***
+* ~~Power Management → Block Sleep: ***check***~~
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 
 ## BIOS Settings via GRUB (Optional)
