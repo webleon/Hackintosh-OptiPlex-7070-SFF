@@ -1,9 +1,9 @@
 # Hackintosh-OptiPlex-7070-SFF
+
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/about20210727.png)
+
 **Opencore Bootloader 0.7.1. Tested on Big Sur 11.5.1**
 
-<img src=https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/about0727.png width=640px />
-
-![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/about0727.png)
 
 ## Introdution
 This is the Hackintosh EFI Folder for Dell OptiPlex 7070 Small Form Factor. The configuration settings support MacOS Catalina and Big Sur. 
