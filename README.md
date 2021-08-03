@@ -48,7 +48,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 
 
-## BIOS Settings via GRUB (Optional)
+## BIOS Settings via GRUB
 * Set Pre-Allocated DVMT to 64M: 
 ***setup_var 0x8DC 0x02***
 * Disable CFG lock: 
