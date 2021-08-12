@@ -55,6 +55,14 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 ***setup_var 0x5BE 0x00***
 
 
+## USB Mapping
+* After MacOS Big Sur 11.3, the USB ports map as follows:
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/usbports.png)
+
+* HS01 and HS10 have been blocked due to the MacOS USB ports limit.
+* Check [Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html) for more infos on USB mapping.
+
+
 ## Changelog
 
 **2021-07-27**
