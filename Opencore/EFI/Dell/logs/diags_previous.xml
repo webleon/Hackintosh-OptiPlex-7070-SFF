@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>23</LogNumber>
+    <LogTimeStamp>07/27/2021 10:34:45</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Not Reported</Result>
+      <ReturnCode>BOOT_F2</ReturnCode>
+      <ePSAFullVersion>4400.07</ePSAFullVersion>
+      <ePSAInvocationCount>3</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>MEMORY_CONFIG</ErrorCategory>
+      <ErrorMessage><![CDATA[Alert! The amount of system memory has changed.]]></ErrorMessage>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
