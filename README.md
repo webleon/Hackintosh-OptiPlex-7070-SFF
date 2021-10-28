@@ -21,7 +21,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * **GPU**: Radeon™ RX 560 (low profile)
 * **RAM**: 64GB DDR4 2666 Daul Channel
 * **HDD**: TOSHIBA RC500 NVMe SSD 500G
-* **LAN**: Realtek RTL8125B / Intel I219LM7
+* **LAN**: AQtion AQC107 / Realtek RTL8125B / Intel I219LM7
 * **Wi-Fi & Bluetooth**: BCM943602CS with NGFF Adapter
 
 
