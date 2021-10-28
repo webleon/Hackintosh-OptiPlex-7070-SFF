@@ -65,6 +65,16 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 
 ## Changelog
 
+**2021-10-25**
+* Added Monterey support for AQC107 10G NIC
+* Updated Opencore to 0.7.4
+* Updated Kexts to the latest version
+* Support for macOS Monterey
+
+**2021-09-07**
+* Updated bootloader to Opencore 0.7.3
+* Updated the KEXTs to the latest version
+
 **2021-07-27**
 * Updated bootloader to Opencore 0.7.1
 * Updated the KEXTs to the latest version
