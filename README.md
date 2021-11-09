@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/about20211025.png)
 
-**Opencore Bootloader 0.7.4. Tested on Monterey 12.0.1**
+**Opencore Bootloader 0.7.5. Tested on Monterey 12.0.1**
 
 
 ## Introdution
@@ -66,6 +66,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 ## Changelog
 
 **2021-11-09**
+* Updated Opencore to 0.7.5
 * Patched GPRW to improve sleep
 * Changed platform-id to 3E920003 for better compatibility
 
