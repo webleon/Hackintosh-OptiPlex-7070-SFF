@@ -65,6 +65,10 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 
 ## Changelog
 
+**2021-11-09**
+* Patched GPRW to improve sleep
+* Changed platform-id to 3E920003 for better compatibility
+
 **2021-10-25**
 * Added Monterey support for AQC107 10G NIC
 * Updated Opencore to 0.7.4
