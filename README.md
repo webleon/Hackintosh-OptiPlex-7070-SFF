@@ -1,8 +1,8 @@
 # Hackintosh-OptiPlex-7070-SFF
 
-![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/about20210727.png)
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/about20211025.png)
 
-**Opencore Bootloader 0.7.1. Tested on Big Sur 11.5.1**
+**Opencore Bootloader 0.7.4. Tested on Monterey 12.0.1**
 
 
 ## Introdution
@@ -21,7 +21,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * **GPU**: Radeon™ RX 560 (low profile)
 * **RAM**: 64GB DDR4 2666 Daul Channel
 * **HDD**: TOSHIBA RC500 NVMe SSD 500G
-* **LAN**: Realtek RTL8125B / Intel I219LM7
+* **LAN**: AQtion AQC107 / Realtek RTL8125B / Intel I219LM7
 * **Wi-Fi & Bluetooth**: BCM943602CS with NGFF Adapter
 
 
@@ -64,6 +64,16 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 
 
 ## Changelog
+
+**2021-10-25**
+* Added Monterey support for AQC107 10G NIC
+* Updated Opencore to 0.7.4
+* Updated Kexts to the latest version
+* Support for macOS Monterey
+
+**2021-09-07**
+* Updated bootloader to Opencore 0.7.3
+* Updated the KEXTs to the latest version
 
 **2021-07-27**
 * Updated bootloader to Opencore 0.7.1
