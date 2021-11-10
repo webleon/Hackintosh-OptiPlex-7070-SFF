@@ -70,7 +70,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Updated Kexts to the latest version
 * Patched GPRW to improve sleep
 * Changed platform-id to 0x3E980003 for better compatibility
-* Fixed Apple Chime (by [antonioclb](https://github.com/acidanthera/bugtracker/issues/1012#issuecomment-708214245)
+* Fixed Apple Chime (by [antonioclb](https://github.com/acidanthera/bugtracker/issues/1012#issuecomment-708214245))
 
 **2021-11-09**
 * Updated Opencore to 0.7.5
